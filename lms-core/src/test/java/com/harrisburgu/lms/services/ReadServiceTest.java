@@ -50,13 +50,9 @@ class ReadServiceTest {
 
     private Book theBook;
     private Author theAuthor;
-    private Genre theGenre;
     private Publisher thePublisher;
-    private Librarian theLibrarian;
     private LibraryBranch theLibraryBranch;
     private User theUser;
-    private BookCopy theBookCopy;
-    private LoanRecord theLoanRecord;
 
     List<Author> theAuthors = new ArrayList<>();
     List<Book> theBooks = new ArrayList<>();
