@@ -33,7 +33,6 @@ import java.util.stream.Collectors;
 @RequestMapping(value = "/admin")
 public class AdminController {
 
-	private final Logger logger = LoggerFactory.getLogger(AdminController.class);
 	private final ReadService readService;
 	private final CreateUpdateService createUpdateService;
 	private final DeleteService deleteService;
